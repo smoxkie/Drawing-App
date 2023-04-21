@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://w7.pngwing.com/pngs/113/96/png-transparent-corel-painter-essentials-computer-software-macos-painter-watercolor-painting-painting-painter.png">
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="nav">
+        <div class="clr" data-clr="#000"></div>
+        <div class="clr" data-clr="red"></div>
+        <div class="clr" data-clr="orange"></div>
+        <div class="clr" data-clr="blue"></div>
+        <div class="clr" data-clr="purple"></div>
+        <div class="clr" data-clr="yellowgreen"></div>
+        <div class="clr" data-clr="yellow"></div>
+        <div class="clr" data-clr="#fff"></div>
+        <button id="clear">clear</button>
+        <button id="save">save</button>
+        <input type="color" id="favcolor" value="#FFFFFF">
+        <input type="range" id="ageinput" min="1" max="25" value="5" oninput="ageOutputId.value = ageinput.value">
+        <output id="ageOutputId">5</output>
+        <div id="paintIcon">🎨</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

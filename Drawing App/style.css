@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 1%;
+    left: 20%;
+    transition: opacity .5s;
+    padding: 30px;
+    background: linear-gradient(to right, #4568DC, #B06AB3);
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+button:hover,.nav:hover {
+    cursor: pointer;
+}
+
+.clr {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: transform .5s;
+}
+
+.clr:hover {
+    transform: scale(1.2);
+}
+
+.nav div,button,input {
+    margin: 10px;
+}
+
+
+.clr:nth-child(1) {
+    background-color: black;
+}
+
+.clr:nth-child(2) {
+    background-color: red;
+}
+
+.clr:nth-child(3) {
+    background-color: orange;
+}
+
+.clr:nth-child(4) {
+    background-color: blue;
+}
+
+.clr:nth-child(5) {
+    background-color: purple;
+}
+
+.clr:nth-child(6) {
+    background-color: yellowgreen;
+}
+
+.clr:nth-child(7) {
+    background-color: yellow;
+}
+
+.clr:nth-child(8) {
+    background-color: white;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: .6em 1em;
+    border-radius: 3px;
+    border: 3px solid white;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#save {
+    background-color: blue;
+}
+
+#ageOutputId {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#ageinput {
+    height: 12px;
+    outline: none;
+    background-image: linear-gradient(to right, black 0%, blue 100%);
+    border: 2px solid white;
+    accent-color: white;
+    border-radius: 5px;
+    cursor: ew-resize;
+    -webkit-appearance: none;
+}
+
+#paintIcon{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
